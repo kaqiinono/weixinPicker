@@ -1,0 +1,22 @@
+{
+  "name": "picker",
+  "version": "1.0.0",
+  "description": "to pick up files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "songmeinuo",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^8.0.3",
+    "shelljs": "^0.8.5"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "engines": {
+    "node": ">=14.17.0"
+  }
+}
