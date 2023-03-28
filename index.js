@@ -36,11 +36,16 @@ const nameReflection = {
     '51d976cd2fcbe1ad37c727e430451dee': {
         name: 'qinbao',
         exclude: ['Image', 'Video']
+    },
+    '5952bad8ea23131674b23df21ecc235e': {
+        name: 'meinuo',
+        exclude: ['Image', 'Video']
     }
 };
 
 // 3、定义你需要备份的文件路径
-const bakeFolder = '/Users/songmeinuo/Documents/myPrivate/backup/';
+const bakeFolder =
+    '/Users/songmeinuo/Documents/myPrivate/backup/filesInWebChat';
 
 findFiles({
     mainPath,

@@ -4,11 +4,12 @@
   "description": "to pick up files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "songmeinuo",
   "license": "ISC",
   "dependencies": {
+    "fs-extra": "^11.1.0",
     "shelljs": "^0.8.5"
   },
   "type": "module",
